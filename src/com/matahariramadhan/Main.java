@@ -7,6 +7,7 @@ public class Main {
         var employee = new Employee(50_000);
 //        int wage = employee.calculateWage(10);
         int wage = employee.calculateWage();
+        Employee.printNumberOfEmployee();
 
         System.out.println(wage);
     }
